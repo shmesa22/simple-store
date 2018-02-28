@@ -1,0 +1,22 @@
+{
+  "name": "front-end-lab-ecommerce",
+  "version": "1.0.0",
+  "description": "Front end lab exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shmesa22/front-end-lab-ecommerce.git"
+  },
+  "author": "Simon Hoyos <shmesa23@gmail.com> (https://www.linkedin.com/in/simonhoyos)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shmesa22/front-end-lab-ecommerce/issues"
+  },
+  "homepage": "https://github.com/shmesa22/front-end-lab-ecommerce#readme",
+  "dependencies": {
+    "live-server": "1.2.0"
+  }
+}
