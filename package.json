@@ -4,6 +4,7 @@
   "description": "Front end lab exercise",
   "main": "src/index.js",
   "scripts": {
+    "clear": "rm -rf ./node_modules",
     "start": "live-server src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
