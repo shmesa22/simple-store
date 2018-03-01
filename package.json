@@ -10,6 +10,7 @@
     "clear": "rm -rf ./node_modules",
     "eslint": "eslint './src/**/*.js'",
     "lint": "yarn eslint",
+    "precommit": "yarn lint",
     "prettier:format": "prettier '**/*.{js,md}' --write",
     "start": "webpack-dev-server --mode development --open",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -35,6 +36,9 @@
     "babel-preset-env": "1.6.1",
     "babel-preset-stage-1": "6.24.1",
     "css-loader": "0.28.10",
+    "eslint": "4.18.1",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-prettier": "2.6.0",
     "html-loader": "0.5.5",
     "html-webpack-plugin": "3.0.3",
     "husky": "0.14.3",
@@ -43,10 +47,5 @@
     "webpack": "4.0.1",
     "webpack-cli": "2.0.9",
     "webpack-dev-server": "3.1.0"
-  },
-  "husky": {
-    "hooks": {
-      "precommit": "yarn lint"
-    }
   }
 }
