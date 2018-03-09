@@ -2,3 +2,37 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header__logo {
+  margin: 20px auto;
+}
+
+.header__hero {
+  background-image: url('./static/Image-hero.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 78px;
+  position: relative;
+  width: 100%;
+}
+
+.header__hero::after {
+  background-color: #000;
+  bottom: -30px;
+  color: #fff;
+  content: 'free hearts, always free';
+  height: 30px;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  width: 100%;
+}
