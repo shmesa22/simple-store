@@ -1,6 +1,6 @@
 import { header } from './header';
-import { renderProduct } from './product';
+import { renderProducts } from './product';
 
 const root = document.querySelector('.root');
 
-root.innerHTML = header + renderProduct;
+root.innerHTML = header + renderProducts;
