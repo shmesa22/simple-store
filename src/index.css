@@ -7,19 +7,25 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .header__logo {
   margin: 20px auto;
 }
 
+.header__hamburguer {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
 .header__hero {
   background-image: url('./static/Image-hero.jpg');
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: contain;
-  height: 78px;
+  background-size: cover;
+  height: 150px;
   position: relative;
   width: 100%;
 }
@@ -36,6 +42,20 @@ body {
   text-transform: uppercase;
   vertical-align: middle;
   width: 100%;
+}
+
+.store__header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.store__title {
+  max-width: 50%;
+}
+
+.store__counter {
+  align-self: center;
+  max-width: 50%;
 }
 
 .card {
