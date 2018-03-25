@@ -7,17 +7,18 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 30px;
 }
 
 .header__logo {
-  margin: 20px auto;
+  height: 63px;
+  margin: 20px auto 31px;
+  width: 250px;
 }
 
 .header__hamburguer {
   position: absolute;
-  right: 30px;
-  top: 30px;
+  right: 32px;
+  top: 38px;
 }
 
 .header__hero {
@@ -25,18 +26,19 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 150px;
+  height: 260px;
   position: relative;
   width: 100%;
 }
 
 .header__hero::after {
   background-color: #000;
-  bottom: -30px;
+  bottom: 0;
   color: #fff;
   content: 'free hearts, always free';
-  height: 30px;
-  line-height: 30px;
+  font-size: 26px;
+  height: 60px;
+  line-height: 60px;
   position: absolute;
   text-align: center;
   text-transform: uppercase;
