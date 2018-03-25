@@ -1,12 +1,12 @@
-import product1 from './static/products/Product-1.jpg';
-import product2 from './static/products/Product-2.jpg';
-import product3 from './static/products/Product-3.jpg';
-import product4 from './static/products/Product-4.jpg';
-import product5 from './static/products/Product-5.jpg';
-import product6 from './static/products/Product-6.jpg';
-import product7 from './static/products/Product-7.jpg';
-import product8 from './static/products/Product-8.jpg';
-import product9 from './static/products/Product-9.jpg';
+import product1 from './static/products/Product-1.png';
+import product2 from './static/products/Product-2.png';
+import product3 from './static/products/Product-3.png';
+import product4 from './static/products/Product-4.png';
+import product5 from './static/products/Product-5.png';
+import product6 from './static/products/Product-6.png';
+import product7 from './static/products/Product-7.png';
+import product8 from './static/products/Product-8.png';
+import product9 from './static/products/Product-9.png';
 
 export default {
   shoes: [
@@ -53,7 +53,7 @@ export default {
     {
       name: 'U Remind Me',
       price: 280,
-      availability: 32,
+      availability: 25,
       colour: 'black',
       style: 'running',
       SKU: 7668807667,
@@ -63,7 +63,7 @@ export default {
     {
       name: 'Yeah!',
       price: 125,
-      availability: 32,
+      availability: 50,
       colour: 'magenta',
       style: 'street',
       SKU: 3722912746,
@@ -73,7 +73,7 @@ export default {
     {
       name: 'My Boo',
       price: 247,
-      availability: 32,
+      availability: 7,
       colour: 'ice blue',
       style: 'yoga',
       SKU: 1958443364,
@@ -83,7 +83,7 @@ export default {
     {
       name: 'Confessions Part II',
       price: 136,
-      availability: 32,
+      availability: 23,
       colour: 'lime green',
       style: 'flying',
       SKU: 1958443364,
