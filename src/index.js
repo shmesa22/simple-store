@@ -1,7 +1,23 @@
 import { footer } from './footer';
-import { header } from './header';
+import { header, modal } from './header';
 import { renderProducts } from './product';
 
-const root = document.querySelector('.root');
+export const App = (function App() {
+  const root = document.querySelector('.root');
 
-root.innerHTML = header + renderProducts + footer;
+  window.handleClick = isOpen => {
+    isOpen = !isOpen;
+    render(isOpen);
+  };
+
+  function render(isOpen) {
+    return (root.innerHTML =
+      header(isOpen) + modal(isOpen) + renderProducts + footer);
+  }
+
+  render(false);
+
+  return {
+    render,
+  };
+})();
